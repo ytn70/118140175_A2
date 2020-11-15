@@ -1,0 +1,42 @@
+#header {
+    width: 784px;
+    height: 200px;
+    background-color: #dedac1;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kolom {
+    display: flex;
+    width: 784px;
+    border-left: solid;
+    border-right: solid;
+}
+
+#kolom1 {
+    width: 200px;
+    background-color: #ffff01;
+    border-right: solid;
+}
+
+#kolom2 {
+    width: 584px;
+    background-color: #d99896;
+}
+
+#footer {
+    width: 784px;
+    height: 100px;
+    background-color: #b1a1c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    
+}
+
+p {
+    text-align: justify;
+}
