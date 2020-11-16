@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header ul a {
+  font-size: medium;
+  color: white;
+  text-decoration: none;
+}
+
+.header ul a:hover {
+  color: lawngreen;
+}
+
+h1, h2, p {
+  color: white;
+}
+
+.main {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.main p {
+  text-align: justify;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.foto {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.foto div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+}
+
+.foto div img {
+  border: 2px solid lawngreen;
+}
+
+.foto div img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=style.css.map */

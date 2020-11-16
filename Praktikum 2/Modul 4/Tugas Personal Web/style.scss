@@ -1,0 +1,61 @@
+@import "_base";
+$text-color : white;
+$effect-color : lawngreen;
+@mixin box-flex($position){
+    display: flex;
+    align-items: center;
+    justify-content: $position;
+}
+@mixin padd {
+    padding: {
+        right: 10px;
+        left: 5px;
+    }
+}
+
+.header{
+    ul{
+        @include box-flex(space-evenly);
+        a{
+            font-size: medium;
+            color:$text-color;
+            text-decoration: none;
+        }
+        a:hover{
+            color:$effect-color;
+        }
+    }
+}
+
+h1, h2, p{
+    color: $text-color;
+}
+
+.main{
+    @include padd();
+    p{
+        text-align: justify;
+    }
+}
+
+.footer{
+    @include box-flex(center);
+    p{
+        text-align: center;
+    }
+  
+}
+
+.foto{
+    @include padd();
+    div{
+        @include box-flex(center);
+        padding: 50px;
+        img{
+            border: 2px solid $effect-color;
+        }
+        img:hover{
+            transform: scale(1.1);
+        }
+    }
+}
