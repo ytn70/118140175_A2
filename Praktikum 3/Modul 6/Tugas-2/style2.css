@@ -1,0 +1,11 @@
+body{
+    background-color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.utama{
+    background-color: seashell;
+    width: 75%;
+    padding: 10px;
+    margin: auto;
+}

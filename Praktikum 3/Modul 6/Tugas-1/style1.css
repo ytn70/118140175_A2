@@ -1,0 +1,28 @@
+body{
+    background-color: salmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box{
+    background-color: rgb(241, 241, 241);
+    width: 75%;
+    padding: 10px;
+    margin: auto;
+}
+
+.form{
+    width: fit-content;
+    margin: auto;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: rgb(247, 129, 51);
+    color: rgb(243, 243, 245);
+}
+
+.hasil{
+    width: fit-content;
+    margin: auto;
+    font-size: 18px;
+}
