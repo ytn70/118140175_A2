@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>118140175 Tugas 2</title>
+</head>
+
+<body>
+
+    <div class="elements_by_name">
+        <ul>
+            <li><b>Contoh getElementsByName()</b></li>
+            <p>
+                Input sembarang ataupun kosongkan. <br>
+                Fungsi dom ini akan mencari dalam dokumen
+                apakah ada tag yang memiliki atribut name "x"(sesuai parameter yang dikirimkan)<br>
+            </p>
+
+            <div name="testName"></div>
+            <button onclick="fungsiEByName()">Klik aku!</button>
+
+            <p>Tag yang memiliki atribut name "x" : </p>
+            <p id="testName"></p>
+        </ul>
+        <script>
+            function fungsiEByName() {
+                var x = document.getElementsByName("testName")[0].tagName;
+                document.getElementById("testEbyName").innerHTML = x;
+            }
+        </script>
+    </div>
+
+    <div class="elements_by_class_name">
+        <ul>
+            <li><b>Contoh getElementByClassName()</b></li><br>
+            <p>Fungsi dom ini berfungsi untuk mengumpulkan semua tag
+                yang memiliki atribut class "x"(sesuai parameter yang dikirimkan)
+                dikumpulkan dalam bentuk array.
+            </p>
+            <button class="example">Ini Button Contoh</button>
+            <button onclick="myPercobaan()">Klik Aku!</button>
+            <p>Hasil setelah klik 'Klik Aku!' : </p>
+            <p id="testClassName"></p>
+        </ul>
+        <script>
+            function myPercobaan() {
+                var x = document.getElementsByClassName("example");
+                document.getElementById("testClassName").innerHTML = x[0].innerHTML;
+            }
+        </script>
+    </div>
+
+    <div class="elements_by_tag_name">
+        <ul>
+            <li><b>Contoh getElementByTagName()</b></li>
+            <p>Fungsi dom ini mencari semua tag yang diberi nama
+                "x" (sesuai parameter yang dikirim). Disimpan dalam bentuk
+                array.
+            </p>
+            <p>Ini tag p ke 8</p>
+            <button onclick="myList()">Try it</button>
+            <p>Hasil : </p>
+            <p id="testTagName"></p>
+        </ul>
+        <script>
+            function myList() {
+                var x = document.getElementsByTagName("p");
+                document.getElementById("testTagName").innerHTML = x[7].innerHTML;
+            }
+        </script>
+    </div>
+
+    <div class="elements_by_tag_name_ns">
+        <ul>
+            <li><b>Contoh getElementByTagNameNS()</b></li>
+            <p>
+                Fungsi dom ini akan mencari element dari namsespace.
+                data disimpan dalam array.
+            </p>
+            <button onclick="getAllParaElems()">show all div elements</button>
+            <script>
+                function getAllParaElems() {
+                    var names = document.getElementsByTagNameNS("*", "div");
+                    var num = names.length;
+                    alert("Ada " + num + " tag div dalam dokumen ini");
+                }
+            </script>
+    </div>
+
+    <div class="selector">
+        <ul>
+            <li><b>Contoh querySelector()</b></li>
+            <p>Fungsi dom ini berfungsi untuk mencari tag yang pertama
+                muncul sesuai parameter yang dikirim dengan catatan isi
+                parameter seperti pencarian calam CSS.
+            </p>
+            <p class="testSelector">Ini tag yang akan dituju (yang pertama)</p>
+            <p class="testSelector">Ini tag kedua</p>
+            <script>
+                var p4 = document.querySelector('.selector p.testSelector');
+                p4.style.color = 'darkblue';
+            </script>
+    </div>
+    <div class="selector_all">
+        <ul>
+            <li><b>Contoh querySelectorAll()</b></li><br>
+            <p>Fungsi dom ini berfungsi untuk mencari semua tag yang memiliki
+                atribut sesuai parameter.
+            </p>
+            <p class="testSelectorAll">Ini tag p dengan kelas testSelectorAll</p>
+            <p class="testSelectorAll">Ini tag p dengan kelas testSelectorAll 2</p>
+            <p>ini tag p tapi berbeda class</p>
+            <script>
+                var warnain = document.querySelectorAll('.testSelectorAll');
+                for (let i = 0; i < warnain.length; i++) {
+                    warnain[i].style.backgroundColor = 'lightblue';
+                }
+            </script>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<biodata>
+    <nama>
+        <depan>Yeriko Thomas</depan>
+        <belakang>Napitupulu</belakang>
+    </nama>
+    <jeniskelamin>Laki-laki</jeniskelamin>
+    <status>Mahasiswa</status>
+    <saudara>
+        <abang>
+            <nama>
+                <depan>Yonathan T.</depan>
+                <belakang>Napitupulu</belakang>
+            </nama>
+        </abang>
+        <adik>
+            <nama>
+                <depan>Yosefani T.</depan>
+                <belakang>Napitupulu</belakang>
+            </nama>
+        </adik>
+    </saudara>
+    <orangtua>
+        <ayah>
+            <nama>
+                <depan>T.</depan>
+                <belakang>Napitupulu</belakang>
+            </nama>
+        </ayah>
+        <ibu>
+            <nama>
+                <depan>Alm. N. L.</depan>
+                <belakang>Samosir</belakang>
+            </nama>
+        </ibu>
+    </orangtua>
+    <hobby>
+        <hobi>Olahraga</hobi>
+        <hobi>Coding</hobi>
+        <hobi>Gaming</hobi>
+    </hobby>
+    <alamat>
+        <kecamatan>Rawa Laut</kecamatan>
+        <kota>Bandar Lampung</kota>
+    </alamat>
+    <sosialmedia>
+        <github>/ytn70</github>
+    </sosialmedia>
+
+</biodata>

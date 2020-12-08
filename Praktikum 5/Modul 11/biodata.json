@@ -1,0 +1,51 @@
+{
+    "biodata": {
+        "nama": {
+            "depan": "Yeriko Thomas",
+            "belakang": "Napitupulu"
+        },
+        "jeniskelamin": "Laki-laki",
+        "status": "Mahasiswa",
+        "saudara": {
+            "abang": {
+                "nama": {
+                    "depan": "Yonathan T.",
+                    "belakang": "Napitupulu"
+                }
+            },
+            "adik": {
+                "nama": {
+                    "depan": "Yosefani T.",
+                    "belakang": "Napitupulu"
+                }
+            }
+        },
+        "orangtua": {
+            "ayah": {
+                "nama": {
+                    "depan": "T.",
+                    "belakang": "Napitupulu"
+                }
+            },
+            "ibu": {
+                "nama": {
+                    "depan": "Alm. N. L.",
+                    "belakang": "Samosir"
+                }
+            }
+        },
+        "hobby": {
+            "hobi": [
+                "Olahraga",
+                "Coding"
+            ]
+        },
+        "alamat": {
+            "kecamatan": "Rawa Laut",
+            "kota": "Bandar Lampung"
+        },
+        "sosialmedia": {
+            "github": "/ytn70"
+        }
+    }
+}
